@@ -1,0 +1,104 @@
+body {
+  background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: #ffffff;
+}
+#header {
+  background-color: #d8d3cd;
+  text-align: center;
+}
+.message {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #0e1318;
+  letter-spacing: 1px;
+  margin-left: 16px;
+  margin-right: 16px;
+  text-align: left;
+  text-align: start;
+  padding-bottom: 10px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.table {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.images {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  padding-top: 20px;
+}
+a {
+  color: lightblue;
+}
+.tableheader {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.col {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+ul {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+}
+.lastcontainer,
+.information {
+  background-color: #d8d3cd;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #0e1318;
+}
+table {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  width: fit-content;
+  font-family: "Montserrat", sans-serif;
+}
+.subscription {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.infoLinks {
+  color: gray;
+}
+a:hover {
+  color: red;
+}
+.code {
+  padding-bottom: 20px;
+}
